@@ -665,3 +665,17 @@ position: relative;
 .star-img-wap{
   display: flex;
 }
+.more-star{
+background-color: #303134;
+border-radius: 2rem;
+width: 24rem;
+height: 2.5rem;
+display: flex;
+margin-top: 2.5rem;
+}
+.more-star p{
+  padding:0.7rem 0.7rem 0 9rem ;
+}
+.more-star span{
+  padding-top: 0.7rem;
+}
