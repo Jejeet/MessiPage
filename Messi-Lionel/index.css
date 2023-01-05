@@ -605,3 +605,63 @@ aside {
   height: 100%;
   width: 100%;
 }
+
+/* styling the aside section */
+aside{
+  height: 12rem;
+
+position: relative;
+}
+.aside-box{
+  
+  border-left: 1px solid white;
+  position: absolute;
+}
+.box{
+  margin-left: 1.2rem;
+}
+
+.mesi-intro,.mesi-team{
+  line-height: 1.8rem;
+  font-size: 14px;
+  padding-top: 1.7rem;
+}
+.mesi-age{
+  padding-top:1.1rem;
+}
+.messi-kids {
+  text-decoration: none;
+}
+.panel-feedback-wa{
+  display: flex;
+  font-size: 14px;
+}
+.panel-feedback{
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding:0.5rem;
+  display: inline-block;
+}
+.feedback{
+  display: inline-block;
+  margin-top: 0.82rem;
+  margin-left: 1.625rem ;
+}
+.profile-img img{
+  width: 3rem;
+}
+.profile-img {
+  display: flex;
+}
+.cr7-card img,.ney-card img,.mbappe-card img,.Anto-card img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+ 
+}
+.cr7-card ,.ney-card,.mbappe-card, .Anto-card{
+  padding: 3rem 0 0 1.3rem;
+}
+.star-img-wap{
+  display: flex;
+}
