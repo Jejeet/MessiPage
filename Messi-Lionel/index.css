@@ -658,6 +658,7 @@ position: relative;
 .panel-feedback-wa{
   display: flex;
   font-size: 14px;
+  padding-bottom: 1rem;
 }
 .panel-feedback{
   border: 1px solid white;
@@ -672,9 +673,35 @@ position: relative;
 }
 .profile-img img{
   width: 3rem;
+  height: 3rem;
+  
 }
 .profile-img {
   display: flex;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+}
+.profile-img a{
+  color: white;
+  font-size: 14px;
+}
+.aside-profile{
+  padding-top: 2rem;
+}
+
+.insta-profile, .youtube-profile, .fb-profile{
+  padding-left: 2rem;
+}
+.stat{
+  padding-top: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.forward-stat{
+  border: 0.5px solid white;
+  border-radius: 2rem;
 }
 .cr7-card img,.ney-card img,.mbappe-card img,.Anto-card img{
   width: 5rem;
