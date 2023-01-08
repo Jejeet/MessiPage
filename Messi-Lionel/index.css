@@ -703,6 +703,16 @@ position: relative;
   border: 0.5px solid white;
   border-radius: 2rem;
 }
+table {
+  border-collapse: collapse;
+}
+tr{
+  border-bottom: 1px solid lightgrey;
+ 
+}
+tr td{
+  padding: 2rem 1.2rem 1.2rem;
+}
 .cr7-card img,.ney-card img,.mbappe-card img,.Anto-card img{
   width: 5rem;
   height: 5rem;
@@ -714,6 +724,9 @@ position: relative;
 }
 .star-img-wap{
   display: flex;
+}
+.other-star-wap{
+  padding-top: 1.5rem;
 }
 .more-star{
 background-color: #303134;
